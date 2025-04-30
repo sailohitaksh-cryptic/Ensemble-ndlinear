@@ -28,9 +28,9 @@ The project includes:
 ## Requirements
 
 * Python >=3.12
-* PyTorch (>=1.8, tested with version specified in notebook)
+* PyTorch
 * Torchvision
-* `ndlinear` library: `pip install ndlinear`
+* `ndlinear` library
 
 
 ## Usage
@@ -43,11 +43,11 @@ The project includes:
 2.  Ensure the `ndlinear` library/module is accessible (see Requirements).
 3.  Install other required packages:
     ```bash
-    pip install torch torchvision
+    pip install torch torchvision torchaudio ndlinear
     ```
 4.  Open and run the Jupyter Notebook:
     ```bash
-    jupyter notebook note.ipynb
+    jupyter notebook benchmark_notebook.ipynb
     ```
     (Or open it in JupyterLab, VS Code, Google Colab, etc.)
 
@@ -93,10 +93,6 @@ Comparison (Best NdLinear vs Baseline):
 
 ## Files
 
-* `tuned_assignment.ipynb`: The main Jupyter Notebook containing all code, experiments, and analysis.
-* `ndlinear.py` (Optional): Include if the `NdLinear` library is provided as a source file.
+* `benchmark_notebook.ipynb`: The main Jupyter Notebook containing all code, experiments, and analysis.
 * `README.md`: This file.
 
-## License
-
-(Optional: Add your license information here, e.g., MIT License)
