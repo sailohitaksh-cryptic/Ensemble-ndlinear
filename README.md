@@ -37,15 +37,17 @@ The project includes:
 
 1.  Clone the repository:
     ```bash
-    git clone <your-repo-url>
-    cd <repo-directory>
+    git clone https://github.com/sailohitaksh-cryptic/Ensemble-ndlinear.git
     ```
-2.  Ensure the `ndlinear` library/module is accessible (see Requirements).
-3.  Install other required packages:
+    ```bash
+    cd Ensemble-ndlinear
+    ```
+    
+2.  Install required packages:
     ```bash
     pip install torch torchvision torchaudio ndlinear
     ```
-4.  Open and run the Jupyter Notebook:
+3.  Open and run the Jupyter Notebook:
     ```bash
     jupyter notebook benchmark_notebook.ipynb
     ```
