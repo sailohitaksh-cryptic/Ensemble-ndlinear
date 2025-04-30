@@ -1,6 +1,6 @@
 # NdLinear vs nn.Linear MNIST Benchmark
 
-This repository contains a Jupyter Notebook (`tuned_assignment.ipynb`) that benchmarks a custom `NdLinear` layer against the standard PyTorch `nn.Linear` layer for image classification on the MNIST dataset. The primary goal is to evaluate the parameter efficiency and performance of `NdLinear` when leveraging its multi-dimensional input capabilities.
+This repository contains a Jupyter Notebook (`benchmark_notebook.ipynb`) that benchmarks a custom `NdLinear` layer against the standard PyTorch `nn.Linear` layer for image classification on the MNIST dataset. The primary goal is to evaluate the parameter efficiency and performance of `NdLinear` when leveraging its multi-dimensional input capabilities.
 
 ## Project Overview
 
